@@ -27,7 +27,7 @@ public class SupermercadoClient {
 		List<Produto> list2 = server.allFabricante(2);
 		List<Produto> list3 = server.allSupermercado(1);
 		Produto produto2 = server.findByFabricante(1, 1);
-		Produto produto3 = server.findBySupermercado(2, 4);
+		Produto produto3 = server.findBySupermercado(2, 2);
 
 		System.out.println("all");
 		for (Produto produto : list) {
